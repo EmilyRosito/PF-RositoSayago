@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: grid;
+}
+
+/*HEADER*/
+
+header{
+    background-color: #a1b79c;
+    padding: 2rem;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container div{
+    margin: 0;
+}
+
+.header-container h2{
+    color: white;
+}
+
+.header-menu ul{
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+
+}
+.header-menu ul li{
+    margin-left: 10px;
+}
+
+.header-menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.titulo, .subtitulo{
+  display: flex;
+  justify-content: center;
+}
+
+.titulo{
+  padding-top: 20px;
+}
+
+.subtitulo{
+  color: #f58462;
+}
+
+.texto {
+  line-height: 2.0;
+  padding-top: 5px;
+}
+
+/*SECTION*/
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+main section{
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 20px;
+}
+
+.enlace {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.enlace img {
+  max-width: 100px;
+  height: 50px; 
+}
+
+.enlace p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.enlace button {
+  padding: 5px 10px;
+  background-color: #a1b79c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enlace button:hover{
+  transform: scale(1.1);
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #a1b79c;
+    color: #fff;
+    padding: 1rem;
+    
+  }
+  
+  /* Contenedor del contenido del footer */
+  .footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilos para el logo y el nombre de la empresa */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 40px; /* Ajusta el tamaño de la imagen del logo según sea necesario */
+    margin-right: 10px;
+    width: 60px;
+  }
+  
+  .footer-logo h3 {
+    margin: 0;
+  }
+  
+  /* Estilos para los enlaces de navegación en el footer */
+  .footer-lista ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-lista li {
+    margin-right: 20px;
+  }
+  
+  .footer-lista a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para la información de contacto en el footer */
+  .footer-contacto h4 {
+    margin: 0;
+  }
+  
+  .footer-contacto p {
+    margin: 0;
+  }
+  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+/*Responsive celular*/
+@media (min-width: 320px) and (max-width: 578px){
+    
+    header{
+        display: grid;
+        grid-template-rows: repeat(4);
+        grid-template-columns: repeat(4);
+    }
+
+    body{
+        font-size: small;
+    }
+
+    main section{
+        display: grid;
+        padding: 50px 0;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+
+    main section .caja{
+        box-shadow: 0 0 10px rgb(139, 250, 208);
+        border-radius: 5px;
+        width: 200px;
+        text-align: center;
+    
+    
+    }
+    
+    main section .caja .imagen{
+        width: 200px;
+        height: 200px;
+    
+    }
+
+    h2{
+        display: flex;
+        justify-items: center;
+    }
+
+    section nav ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    section nav ul a{
+        margin-left: 15px;
+    }
+}

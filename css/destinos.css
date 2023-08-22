@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: grid;
+}
+
+/*HEADER*/
+
+header{
+    background-color: #a1b79c;
+    padding: 2rem;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container div{
+    margin: 0;
+}
+
+.header-container h2{
+    color: white;
+}
+
+.header-menu ul{
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+
+}
+.header-menu ul li{
+    margin-left: 10px;
+}
+
+.header-menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/*MAIN*/
+main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+
+
+main section img{
+    height: 30%;
+    padding: 0;
+
+
+}
+main section h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+main section ul li{
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    margin-top: 10px;
+    list-style-type: none;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section ul li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+
+}
+
+.titulo, .subtitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    padding-top: 20px;
+}
+
+.subtitulo{
+    color: #f58462;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #a1b79c;
+    color: #fff;
+    padding: 1rem;
+}
+  
+  /* Contenedor del contenido del footer */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilos para el logo y el nombre de la empresa */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 40px; /* Ajusta el tamaño de la imagen del logo según sea necesario */
+    margin-right: 10px;
+    width: 60px;
+  }
+  
+  .footer-logo h3 {
+    margin: 0;
+  }
+  
+  /* Estilos para los enlaces de navegación en el footer */
+  .footer-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-list li {
+    margin-right: 20px;
+  }
+  
+  .footer-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para la información de contacto en el footer */
+  .footer-contact h4 {
+    margin: 0;
+  }
+  
+  .footer-contact p {
+    margin: 0;
+  }
+  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+/*Responsive celular*/
+@media (min-width: 320px) and (max-width: 578px){
+    
+    header{
+        display: grid;
+        grid-template-rows: repeat(4);
+        grid-template-columns: repeat(4);
+    }
+
+    body{
+        font-size: small;
+    }
+
+    main section{
+        display: grid;
+        padding: 50px 0;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+
+    main section .caja{
+            border-radius: 5px;
+        width: 200px;
+        text-align: center;
+    
+    
+    }
+    
+    main section .caja .imagen{
+        width: 200px;
+        height: 200px;
+    
+    }
+
+    h2{
+        display: flex;
+        justify-items: center;
+    }
+
+    section nav ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    section nav ul a{
+        margin-left: 15px;
+    }
+}
