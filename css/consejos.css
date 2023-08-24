@@ -1,96 +1,71 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+/* Importación de la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Reset general */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    display: grid;
-}
 
-/*HEADER*/
-
-header{
-    background-color: #a1b79c;
+/* HEADER */
+.bg-primary {
+    background-color: #a1b79c !important;
     padding: 2rem;
 }
+  
 
-.header-container{
+.container h2 {
+    color: rgb(255, 255, 255);
+}
+
+.list-unstyled {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header-container div{
-    margin: 0;
-}
-
-.header-container h2{
-    color: white;
-}
-
-.header-menu ul{
-    display: flex;
-    list-style-type: none;
     list-style: none;
-
 }
-.header-menu ul li{
+
+.list-unstyled li {
     margin-left: 10px;
 }
 
-.header-menu ul li a{
+.list-unstyled li a {
     text-decoration: none;
     color: white;
-
 }
 
-main section{
-  display: grid;
-  grid-template-rows: repeat(1, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  justify-items: center;
-  margin: 20px;
-  background-color: white;
+.col2 {
+  width: 500px;
 }
 
-img{
-  max-width: 400px;
-  height: auto;
-  
-}
+.mr-2 {
+  width: 40px;
+}  
+/* MAIN */
 
 img:hover{
   transform: scale(1.1);
   cursor:pointer
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: rgb(249, 249, 249);
-}
 
-.titulo, .titulo2, .subtitulo, .subtitulo2, .texto{
+
+.text-center{
   display: flex;
   justify-content: center;
 }
 
-.subtitulo{
-  padding-top: 20px;
-  color: #f58462
+.text-muted {
+  color: #f58462 !important;
 }
 
 p {
   line-height: 1.6;
 }
 
+
 ul.options {
   list-style: none;
-  padding: 0;
   background-color: white;
 
 }
@@ -102,85 +77,20 @@ ul.options li {
   justify-content: center;
 }
 
-ul.options li:last-child {
-  border-bottom: none;
-}
 
 ul.options li:hover {
   background-color: #a1b79c;
   cursor: pointer;
 }
 
-ul.options li a {
-  text-decoration: none;
-  color: #007bff;
+.mt-4{
+  display: flex;
+
 }
 
-ul.options li a:hover {
-  text-decoration: underline;
+.mb-5 {
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(249, 249, 249);
 }
-
-
-
-/*FOOTER*/
-footer {
-    background-color: #a1b79c;
-    color: #fff;
-    padding: 1rem;
-    
-  }
-  
-  /* Contenedor del contenido del footer */
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  /* Estilos para el logo y el nombre de la empresa */
-  .footer-logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .footer-logo img {
-    height: 40px; /* Ajusta el tamaño de la imagen del logo según sea necesario */
-    margin-right: 10px;
-    width: 60px;
-  }
-  
-  .footer-logo h3 {
-    margin: 0;
-  }
-  
-  /* Estilos para los enlaces de navegación en el footer */
-  .footer-list ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .footer-list li {
-    margin-right: 20px;
-  }
-  
-  .footer-list a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Estilos para la información de contacto en el footer */
-  .footer-contact h4 {
-    margin: 0;
-  }
-  
-  .footer-contact p {
-    margin: 0;
-  }
-  
-
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
 

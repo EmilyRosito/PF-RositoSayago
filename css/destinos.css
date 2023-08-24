@@ -1,75 +1,75 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+/* Importación de la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Reset general */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    display: grid;
-}
 
-/*HEADER*/
-
-header{
-    background-color: #a1b79c;
+/* HEADER & FOOTER */
+.bg-primary {
+    background-color: #a1b79c !important;
     padding: 2rem;
 }
+  
 
-.header-container{
+.container h2 {
+    color: rgb(255, 255, 255);
+}
+
+.list-unstyled {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header-container div{
-    margin: 0;
-}
-
-.header-container h2{
-    color: white;
-}
-
-.header-menu ul{
-    display: flex;
-    list-style-type: none;
     list-style: none;
-
+    text-align:center;
 }
-.header-menu ul li{
+
+.list-unstyled li {
     margin-left: 10px;
 }
 
-.header-menu ul li a{
+.list-unstyled li a {
     text-decoration: none;
     color: white;
-
 }
 
+.col2 {
+    width: 500px;
+  }
 
-/*MAIN*/
-main{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
+  .mr-2 {
+    width: 40px;
+}  
 
+/* MAIN */
+
+.text-center {
+    padding-top: 30px;
 }
 
-
-
-main section img{
-    height: 30%;
+.text-muted {
+    color: #f58462 !important;
     padding: 0;
-
-
 }
-main section h2{
+
+.list{
+    list-style: none;
+}
+
+.mt-4{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
-main section ul li{
+h4 {
+    text-align: center;
+}
+
+.list li {
     background-color: rgb(247, 247, 247);
     border-radius: 5px;
     margin-top: 10px;
@@ -81,83 +81,12 @@ main section ul li{
     justify-content: center;
 }
 
-main section ul li:hover{
+.list li:hover {
     transform: scale(1.1);
     cursor: pointer;
-
-
 }
 
-.titulo, .subtitulo{
-    display: flex;
-    justify-content: center;
-}
-
-.titulo{
-    padding-top: 20px;
-}
-
-.subtitulo{
-    color: #f58462;
-}
-
-
-/*FOOTER*/
-footer {
-    background-color: #a1b79c;
-    color: #fff;
-    padding: 1rem;
-}
-  
-  /* Contenedor del contenido del footer */
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  /* Estilos para el logo y el nombre de la empresa */
-  .footer-logo {
+.mb-5 {
     display: flex;
     align-items: center;
-  }
-  
-  .footer-logo img {
-    height: 40px; /* Ajusta el tamaño de la imagen del logo según sea necesario */
-    margin-right: 10px;
-    width: 60px;
-  }
-  
-  .footer-logo h3 {
-    margin: 0;
-  }
-  
-  /* Estilos para los enlaces de navegación en el footer */
-  .footer-list ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .footer-list li {
-    margin-right: 20px;
-  }
-  
-  .footer-list a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Estilos para la información de contacto en el footer */
-  .footer-contact h4 {
-    margin: 0;
-  }
-  
-  .footer-contact p {
-    margin: 0;
-  }
-  
-
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+}

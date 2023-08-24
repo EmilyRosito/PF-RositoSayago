@@ -1,128 +1,55 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body{
-    display: grid;
-}
-
-/*HEADER*/
-
-header{
-  background-color: #a1b79c;
-  padding: 2rem;
-}
-
-.header-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-container div{
-  margin: 0;
-}
-
-.header-container h2{
-  color: white;
-}
-
-.header-menu ul{
-  display: flex;
-  list-style-type: none;
-  list-style: none;
-
-}
-.header-menu ul li{
-  margin-left: 10px;
-}
-
-.header-menu ul li a{
-  text-decoration: none;
-  color: white;
-
-}
-
-.titulo, .subtitulo{
-  display: flex;
-  justify-content: center;
-}
-
-.titulo{
-  padding-top: 20px;
-}
-
-.subtitulo{
-  color: #f58462;
-}
-
-.texto{
-display: flex;
-padding-right: 10px;
-padding-left: 10px;
-padding-top: 5px;
-}
-
-
-/*FOOTER*/
-footer {
-    background-color: #a1b79c;
-    color: #fff;
-    padding: 1rem;
-    
-  }
-  
-  /* Contenedor del contenido del footer */
-  .footer-contenido {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  /* Estilos para el logo y el nombre de la empresa */
-  .footer-logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .footer-logo img {
-    height: 40px; /* Ajusta el tamaño de la imagen del logo según sea necesario */
-    margin-right: 10px;
-    width: 60px;
-  }
-  
-  .footer-logo h3 {
-    margin: 0;
-  }
-  
-  /* Estilos para los enlaces de navegación en el footer */
-  .footer-lista ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .footer-lista li {
-    margin-right: 20px;
-  }
-  
-  .footer-lista a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Estilos para la información de contacto en el footer */
-  .footer-contacto h4 {
-    margin: 0;
-  }
-  
-  .footer-contacto p {
-    margin: 0;
-  }
-  
-
-
+/* Importación de la fuente */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Reset general */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* HEADER & FOOTER */
+.bg-primary {
+    background-color: #a1b79c !important;
+    padding: 2rem;
+}
+  
+
+.container h2 {
+    color: rgb(255, 255, 255);
+}
+
+.list-unstyled {
+    display: flex;
+    list-style: none;
+}
+
+.list-unstyled li {
+    margin-left: 10px;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    color: white;
+}
+
+.col2 {
+  width: 500px;
+}
+
+.mr-2 {
+  width: 40px;
+}  
+
+
+/*SECTION*/
+
+.text-center {
+  color: black;
+}
+
+.text-muted {
+  color: #f58462 !important;
+}
+

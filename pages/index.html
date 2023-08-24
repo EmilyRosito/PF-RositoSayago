@@ -5,124 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajeras sin límites: Blog de viajes para viajar por el mundo</title>
-    <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!--SEO-->
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SEO -->
     <meta name="description" content="Blog de viajes en español con las mejores guías para viajar. Empieza a organizar tu viaje paso a paso con mis consejos.">
     <meta name="keywords" content="VIAJES, DESTINOS, EUROPA, ASIA, AMÉRICA, VIAJES BARATOS, MOCHILERAS. TIPS DE VIAJES, BLOG DE VIAJES">
-    <!--ESTILOS-->
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css">
-
 </head>
-
 <body>
-    <header>
-        <div class="header-container">
-            <div>
-                <h2>Viajeras sin límites</h2>
-            </div>
-            <div class="header-menu">
-                <ul>
-                    <li><a href="index.html">INICIO</a></li> 
-                    <li><a href="destinos.html">DESTINOS</a></li> 
-                    <li><a href="consejos.html">CONSEJOS</a></li>
-                    <li><a href="misimprescindibles.html">MIS IMPRESCINDIBLES</a></li>
-                    <li><a href="/pages/sobremi.html">SOBRE MI</a></li>
-                </ul>
-
+    <header class="bg-primary py-3">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col">
+                    <h2>Viajeras sin límites</h2>
+                </div>
+                <div class="col">
+                    <ul class="list-unstyled d-flex">
+                        <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="destinos.html">DESTINOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="consejos.html">CONSEJOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="misimprescindibles.html">MIS IMPRESCINDIBLES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/pages/sobremi.html">SOBRE MI</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
 
-    <h2 class="titulo">TU BLOG DE VIAJES </h2>
-    <p class="subtitulo">Comenza tu viaje</p>
-    <main>
-        <section class="up">
-            <div class="caja">
-                <div class="imagen">
-                    <img src="/img/tailandia.jpg" alt="">
+    <div class="container mt-5">
+        <h3 class="text-center">TU BLOG DE VIAJES</h2>
+        <p class="text-center text-muted">Comenzá tu viaje</p>
+    </div>
+        <section class="up mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/img/tailandia.png" class="card-img-top" alt="">
+                    </div>
                 </div>
-                <div class="nombre">
-                    <p>Tailandia</p>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/img/Marruecos.png" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/img/españa.png" class="card-img-top" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="caja">
-                <div class="imagen">
-                    <img src="/img/Marruecos.png" alt="">
-                </div>
-                <div class="nombre">
-                    <p>Marruecos</p>
-                </div>
-            </div>
-            <div class="caja">
-                <div class="imagen">
-                    <img src="/img/españa.png" alt="">
-                </div>
-                <div class="nombre">
-                    <p>España</p>
-                </div>
-            </div> 
         </section>
-    </main> 
-
-    <h4 class="titulo">ORGANIZA TU VIAJE</h4>
-    <p class="subtitulo">Encontrá lo que necesitas</p>
-
-
-    <section class="down">
-        <nav>
-            <ul>
-                <a href="">BUSCAR HOTELES EN BOOKING</a>
-                <a href="">RESERVAR FREE TOURS Y ACTIVIDADES</a> 
-                <a href="">ALQUILAR AUTO</a>
-                <a href="">INTERNET EN EL EXTRANJERO</a>
-            </ul>
-        </nav>
-    </section>
-
-    <h5 class="titulo3">TURISMO NACIONAL</h5>
-    <p class="subtitulo">Guías para viajar por Argentina</p>
-    <main class="main-down">
-      <section class="section-imagenes">
-        <div class="caja">
-          <img class="Nacional" src="/img/Bariloche.png" alt="">
-        </div>
-        <div class="caja" >
-          <img class="Nacional" src="/img/Mendoza.png" alt="">
-        </div>
-        <div class="caja">
-          <img class="Nacional" src="/img/Jujuy.png" alt="">
-        </div class="caja">
-        <div class="caja">
-          <img class="Nacional" src="/img/Salta.png" alt="">
-        </div>
-      </section>
-    </main>
-
-    <footer>
-        <div class="footer-contenido">
-          <div class="footer-logo">
-            <img src="../img/logo.jpg" alt="">
-            <h3>Viajeras sin límites</h3>
-          </div>
-          <div class="footer-lista">
-            <ul>
-              <li><a href="./index.html">Inicio</a></li>
-              <li><a href="./destinos.html">Destinos</a></li>
-              <li><a href="./consejos.html">Consejos</a></li>
-              <li><a href="./misimprescindibles.html">Mis imprescindibles</a></li>
-              <li><a href="./sobremi.html">Sobre Mi</a></li>
-
-            </ul>
-          </div>
-          <div class="footer-contacto">
-            <h4>Contacto</h4>
-            <p>Dirección: Calle de ejemplo, Ciudad, País</p>
-            <p>Teléfono: +123 456 789</p>
-            <p>Email: info@viajerassinlimites.com</p>
-          </div>
-        </div>
         
-      </footer>
+        <div>
+            <h4 class="text-center mt-5">ORGANIZA TU VIAJE</h4>
+            <p class="text-center text-muted">Encontrá lo que necesitas</p>
+        </div>
+
+
+        <section class="down mt-5">
+            <nav>
+                <ul class="list-unstyled">
+                    <li><a href="">BUSCAR HOTELES EN BOOKING</a></li>
+                    <li><a href="">RESERVAR FREE TOURS Y ACTIVIDADES</a></li>
+                    <li><a href="">ALQUILAR AUTO</a></li>
+                    <li><a href="">INTERNET EN EL EXTRANJERO</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <div>
+            <h5 class="text-center mt-5">TURISMO NACIONAL</h5>
+            <p class="text-center text-muted">Guías para viajar por Argentina</p>
+        </div>
+
+        <section class="main-down mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/img/Bariloche.png" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/img/Mendoza.png" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/img/Jujuy.png" class="card-img-top" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!-- FOOTER -->
+    <footer class="bg-primary text-white py-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <img src="../img/logo.jpg" alt="" class="mr-2">
+                        <h5>Viajeras sin límites</h5>   
+                    </div>
+                </div>
+                <div class="col2">
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./destinos.html">Destinos</a></li>
+                        <li><a href="./consejos.html">Consejos</a></li>
+                        <li><a href="./misimprescindibles.html">Mis imprescindibles</a></li>
+                        <li><a href="./sobremi.html">Sobre Mi</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="footer-contacto">
+                        <h5>Contacto</h5>   
+                        <p>Dirección: Calle de ejemplo, Ciudad, País</p>
+                        <p>Teléfono: +123 456 789</p>
+                        <p>Email: info@viajerassinlimites.com</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
 </body>
